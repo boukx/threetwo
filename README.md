@@ -2,7 +2,7 @@
 
 This is just a repost of an explanation I've given a couple times in the last week.  It explains the following:
 
-- What is GCD desyncing (sometimes referred to as GCD queuing)?
+- What is GCD desyncing?
 - Does GCD desyncing work in classic? _(no)_
 
 - What is 3:2 and why is it special?
