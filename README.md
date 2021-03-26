@@ -13,9 +13,6 @@ This is just a repost of an explanation I've given a couple times in the last we
 - Will it work in classic TBC? _(not likely)_
 - What rotation(s) will I use in TBC classic?
 
-- Finally, why is Bouk so dooming about this? **(warning, opinions)**.
-
-
 # Spell Queuing and GCD Desyncing
 
 In classic right now, spells can be queued .5 seconds before a previous action is finished.  As an example, classic hunters (weapon speed permitting) should be queuing their Aimed Shots behind autos to have 0 delay between the casts.
@@ -53,15 +50,3 @@ Without GCD desyncing, 3:2 is simply a 2:1 followed by a 1:1.  And while both of
 GCD desyncing currently does not work in classic.  When you queue a spell, the GCD for that spell begins when the spell begins casting.  
 
 We're not confident why GCD desyncing worked in TBC, but if I had to hazard a wild guess I'd say it was an inconsistency brought about by some part of GCDs being handled client client sided while casts/actions were being verified more strictly on the server side.  I bring this up to say that I doubt GCD desyncing will be re-implemented for TBC since its such a weird behavior touching both server and client side handling of spell casting which only effects hunters (you need a core rotation of spells with cast times less than the GCD and casts which do not have GCDs to benefit from the tech).
-
-# Bouk's Doom
-
-**Warning: opinions.**
-
-I love classic WoW hunter.  It was the fourth class I played in classic but immediately became my main.  From the weirdness of having such a sparse core rotation to how abusable FD and pet aggro manipulation is--and how much agency our pulling roll in raid affords us--, I've deeply enjoyed playing hunter in classic.
-
-The lack of 3:2 in TBC doesn't kill this class.  I could care less about it lowering our top end damage (which it does-- likely by a lot). I am, however, deeply sad that it abruptly cuts down a large, and fun, and bizare, upper part of the skill ceiling for hunters.
-
-We may have rolling drums and we'll have Misdirects.  We'll be swapping rotations based on haste while `reset=#` remains invalid.  And certainly, for as long as Sixx and Skinnay play, we'll have weaving.
-
-But 3:2 was a constant rhythm game built into the rotation that hunters who had spent a year playing classic, practicing weaves, rolling trinket CDs and FD swaps, and changing our rotations based on haste,-- could look forward to becoming better at.  It could have been a way our rotation changes to something more interesting than `aimed > ms > weave` and avoiding clipping; instead, its absence feels like a slight watering down of an alright rotation.
